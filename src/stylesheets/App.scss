@@ -1,4 +1,21 @@
 .App {
   background-color: green;
   color: white;
+  display: flex;
+
+  .present-card {
+    margin: 2rem;
+    padding: 1rem;
+    border: red solid 3px;
+
+    img {
+      height: 8rem;
+    }
+
+    .ratings {
+      margin: 2rem;
+      padding: 1rem;
+      border: blue solid 3px;
+    }
+  }
 }
