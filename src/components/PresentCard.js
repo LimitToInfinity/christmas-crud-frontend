@@ -6,8 +6,8 @@ function PresentCard({ present }) {
         return present.ratings.map(rating => {
             return (
                 <div className="ratings">
-                    <p>{ rating.stars} </p>
-                    <p>{ rating.description} </p>
+                    <p>{ rating.stars}</p>
+                    <p>{ rating.description}</p>
                 </div>
             );
         })
